@@ -1,0 +1,98 @@
+
+
+ fun main (){
+    
+    var num5 = 20
+    var store = when {
+        num5 <= 20 -> "Place order"
+        else -> "Do not place order"
+    }
+
+
+    var password: String = Beginning
+    if(password.length >= 6){
+        println("Allow")
+    }else {
+        println("Disallow")
+    }
+    
+    var age = 18
+    if(age >= 18) {
+        Println("login")
+    }else {
+        println("logout")
+    }
+    
+    
+    var age1: Int = 16
+    if(age1 >= 16 && age1 <= 8) {
+        println("Adolescent")
+    }else {
+        println("Teenager")
+    }
+    
+    var num: Int = 20
+    if(num <= 20) {
+        println("Place order")
+    } else {
+        println("Do not oeder")
+    }
+    
+    var num4: Int = 42
+    if(num1 >= 18 && num1 <= 60) {
+        println("Yes")
+    }else {
+        println("No")
+    }
+    
+    
+    
+    var x = 8
+    var y = when {
+        x > 10 -> x-1
+        x > 5 -> x+1
+        else -> x
+    }
+    
+    
+    var num2 = -7
+    val result = when {
+        result > 0 -> "Positive"
+        else -> "Negative"
+    }
+    
+    
+    var score: Double = 42.5
+    var result = when {
+        score >= 60 -> "Pass"
+        else -> "Fail"
+    }
+    
+    val age2 = 16
+    val grading = when {
+        age2 >= 13 && age2 <= 48 -> "Teenager"
+        else -> "out of scope"
+
+
+    var color = "green"
+    if (color == "green"){
+        println ("true")
+    }else {
+        println"false"
+    }
+  
+
+    var myName = "edwin"
+    if (myName.length == 5){
+        println ("This is true")
+    }else{
+        println ("This is false")
+    }
+
+
+
+ }
+
+
+
+
